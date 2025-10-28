@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <style>
+        #header {width:100%; text-align: center;border-radius:5px; }
+        #footer {width:50%; text-align: center;border-radius:2px; }
+        #header {background:white; color:black; border-bottom:5px solid indigo;}
+        #footer {clear:left; background:white; color:black; border-bottom:5px solid indigo;}
+
+        #rightnav {margin:10px; float:right}
+        #centerbody {margin:10px; float:center}
+        #rightnav {padding-right:5px; border:2px outset indigo; width:20%; height:180px;}
+        #centerbody {border:2px outset indigo; text-align:center; width: 70%;height:180px;}
+        .centerblack {text-align; center; color:black}
+    </style>
+  <div id="#header">
+      <title>Genetic Flow Line</title>
+  </div><br>
+  <div id="#centerbody">
+    <p>An investigation of Goonatilake's Three Information Flow Lineages and information theroies alike</p><br>
+    <p>Gene-culture are the human genetic traits that create cognitive foundation for complex culture.</p>
+  </div>
+  </body>
+  <footer id="#footer">
+    <a href="index.html">Back to Main Page</a>
+  </footer>
+</html>
