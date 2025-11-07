@@ -29,34 +29,6 @@
   height:200px;
 }
 
-
-
-.rightnav {
-  text-align: center;
-  width:40%; height:200px;
-}
-
-.centerbody {
-  border:2px; 
-  border-color: indigo;
-  border-style: solid; 
-  text-align:center; 
-  width: 40%;
-  height:160px;
-}
-
-.leftnav {
-  padding-right:20px; 
-  width:40%; 
-  height:200px;
-}
-        
-.centerblack {
-  text-align:center; 
-  color:black;
-  font-family: Roboto;
-}
-
 p {
   font-size: 12px; 
   font-family: Roboto;
