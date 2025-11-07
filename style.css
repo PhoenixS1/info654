@@ -1,43 +1,67 @@
+/*Fonts*/
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-.header-footer {width:100vh; text-align: center; }
-#header {margin-top:auto; border-bottom:5px; border-style:dotted; border-color:indigo; border-width:100%;}
-#footer {margin-bottom:auto; color:black; border-top:5px border-style:dotted; border-color:indigo; border-width:100%;}
-.headercolor {color: indigo;font-family:Roboto;}
-.centerblack {color:black; text-align: center; font-size:12px;font-family:Roboto;}
+/*Header & Footer*/
+.header-footer {
+  width:100%; 
+  text-align: center; 
+}
 
-#rightnav, #centerbody, #leftnav {padding:10px; border:2px; border-color: indigo; border-style: dotted;font-family:Roboto;}
-#rightnav {
+#header {border-bottom:5px dotted indigo;}
+
+#footer {border-top:5px dotted indigo; color:black; }
+
+.headercolor {
+  color: indigo;
+  font-family:"Roboto", sans-serif;
+}
+
+/*Main content*/
+.main-content {
   display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: right;    /* Centers vertically */
-  height: 100vh;          /* Ensures container takes full viewport height */
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 80%;
+  border-top: 20ox dotted indigo;
+  border-bottom: 2px dotted indigo;
 }
-#centerbody {
-  display: flex; 
-  justify-content: center; /* Centers horizontally */
-  align-items: center;    /* Centers vertically */
-  height: 100vh;          /* Ensures container takes full viewport height */
-}
-#leftnav {
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: left;    /* Centers vertically */
-  height: 100vh;          /* Ensures container takes full viewport height */
-}
-.rightnav {text-align:right; width:20%; height:100%;font-size: 12px;float: right;}
-.centerbody {text-align:center; width: 60%; height:100%;font-size: 12px;}
-.leftnav {text-align: left; width: 20%; height: 100%;font-size: 12px;}
 
+/* Navigation and body*/
+.rightnav, .centerbody, .leftnav {
+  padding:20px; 
+  border:2px dotted indigo;
+  box-sizing:border-box;
+}
+
+.rightnav {
+  width: 20%
+  text-align: right;
+}
+
+.centerbody {
+  width: 60%
+  text-align: center;
+}
+
+.leftnav {
+  width: 20% 
+  text-align: left;
+}
+
+/*Text styles*/
+.centerblack {
+  color:black; 
+  text-align: center; 
+  font-size:12px;
+}
 
 .bitcount-grid-single-Phoenix {
   font-family: "Bitcount Grid Single", system-ui;
   font-weight: bold;
   font-size: 30px;
-  font-style: normal;
-  font-color: indigo;
+  color: indigo;
   text-align: center;
   font-variation-settings:
       "slnt" 0,
@@ -46,22 +70,29 @@
       "ELXP" 0; 
 }
 
-.smaller-image {
-  float:none;
-  width:300px;
-  height:200px;
-}
-
 p {
   font-size: 12px; 
-  font-family: Roboto;
   color: black;
   text-align: center; 
 }
 
 h2 {
   font-size: 25px;
-  font-family: Roboto;
   color: black;
   text-align: left;
+}
+
+/*Image*/
+.smaller-image {
+  width:300px;
+  height:200px;
+}
+
+/*links*/
+a {
+  color: indigo;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
 }
