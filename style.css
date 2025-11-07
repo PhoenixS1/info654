@@ -3,12 +3,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
 
 .header-footer {width:100vh; text-align: center; }
-#header {margin-bottom:auto; border-bottom:5px; border-style:dotted; border-color:indigo; border-width:100%;}
-#footer {margin-top:auto; color:black; border-top:5px border-style:dotted; border-color:indigo; border-width:100%;}
+#header {margin-top:auto; border-bottom:5px; border-style:dotted; border-color:indigo; border-width:100%;}
+#footer {margin-bottom:auto; color:black; border-top:5px border-style:dotted; border-color:indigo; border-width:100%;}
 .headercolor {color: indigo;font-family:Roboto;}
 .centerblack {color:black; text-align: center; font-size:12px;font-family:Roboto;}
 
-#rightnav, #centerbody, #leftnav {padding:5px; border:2px; border-color: indigo; border-style: solid;font-family:Roboto;}
+#rightnav, #centerbody, #leftnav {padding:10px; border:2px; border-color: indigo; border-style: dotted;font-family:Roboto;}
 #rightnav {
   display: flex;
   justify-content: center; /* Centers horizontally */
