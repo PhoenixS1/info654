@@ -1,10 +1,15 @@
-#header,#footer {width:100%; text-align: center;border-radius:5px; }
-#header {background:indigo; color:black; border-bottom:5px solid indigo;}
-#footer {clear:left; background:indigo; color:black; border-bottom:5px solid indigo;}
+.header-footer {width:100vh; text-align: center; border-radius:5px; border-style:dotted}
+#header {margin-bottom:80%; color:indigo; border-bottom:5px solid indigo; border-width:100vh;}
+#footer {margin-top:80%; color:black; border-top:5px solid indigo; border-width:100vh;}
 
-#rightnav, #centerbody {margin:10px; float:right}
-#rightnav {padding-right:10px; border:2px outset indigo; width:20%; height:180px;}
-#centerbody {border:2px outset indigo; text-align:center; width: 70%;height:180px;}
+#rightnav, #centerbody, #leftnav {padding:5px; border:2px; border-color: indigo; border-style: solid; }
+#rightnav {margin-left:auto; float:right;}
+#centerbody {margin: 0 auto; float:none;}
+#leftnav {margin-right:auto; float:left;}
+.rightnav {text-align:right; width:20%; height:100vh;}
+.centerbody {text-align:center; width: 60%; height:100vh;}
+.leftnav {text-align: left; width: 20%; height: 100vh}
+
 
 .bitcount-grid-single-Phoenix {
   font-family: "Bitcount Grid Single", system-ui;
@@ -24,32 +29,14 @@
   height:200px;
 }
 
-#rightnav {
-  margin-left:auto; 
-  float:right;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 
-#centerbody {
-  margin:10px; 
-  float: left;
-}
 
-#leftnav {
-  margin-right:auto; 
-  float:left;
-}
-
-#rightnav {
-  padding-right:20px; 
-  border:none; 
+.rightnav {
   text-align: center;
   width:40%; height:200px;
 }
 
-#centerbody {
+.centerbody {
   border:2px; 
   border-color: indigo;
   border-style: solid; 
@@ -58,7 +45,7 @@
   height:160px;
 }
 
-#leftnav {
+.leftnav {
   padding-right:20px; 
   width:40%; 
   height:200px;
