@@ -9,7 +9,7 @@ body {
   flext-direction: column;
   min-height: 100%;
   font-family: "Roboto", sans-serif;
-  background-color: #ff;
+  background-color: #fff;
   color: black;
 }
 
@@ -40,7 +40,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex: 1;
+  flex: 10;
   border-top: 2px dotted indigo;
   border-bottom: 2px dotted indigo;
   box-sizing: border-box;
