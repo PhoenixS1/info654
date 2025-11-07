@@ -1,18 +1,3 @@
-/* ====== Global Layout ===== */
-html,body {
-  height: 100%;
-  margin: 0;
-} 
-
-body {
-  display: flex;
-  flext-direction: column;
-  min-height: 100%;
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
-  color: black;
-}
-
 /*Fonts*/
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
