@@ -1,25 +1,10 @@
-#header, #footer {
-  width:100%; 
-  text-align:center; 
-  border-radius: 2px;
-  border-color: solid indigo;
-}
+#header,#footer {width:100%; text-align: center;border-radius:5px; }
+#header {background:indigo; color:black; border-bottom:5px solid indigo;}
+#footer {clear:left; background:indigo; color:black; border-bottom:5px solid indigo;}
 
-#header {
-  background-color: white; 
-  color: black;
-  margin-bottom:40px;
-  margin-top:10px;
-}
-
-#footer {
-  margin-top: 100px;
-  padding: 10px;
-  text-align: center;
-  clear:left; 
-  background-color:white; 
-  color:black;
-}
+#rightnav, #centerbody {margin:10px; float:right}
+#rightnav {padding-right:10px; border:2px outset indigo; width:20%; height:180px;}
+#centerbody {border:2px outset indigo; text-align:center; width: 70%;height:180px;}
 
 .bitcount-grid-single-Phoenix {
   font-family: "Bitcount Grid Single", system-ui;
