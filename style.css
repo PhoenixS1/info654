@@ -33,6 +33,7 @@ body {
   border-top:5px dotted indigo; 
   color:black; 
   margin-top:auto;
+  margin-block-end: inherent;
 }
 
 /*Main content*/
