@@ -9,10 +9,25 @@
 .centerblack {color:black; text-align: center; font-size:12px;font-family:Roboto;}
 
 #rightnav, #centerbody, #leftnav {padding:5px; border:2px; border-color: indigo; border-style: solid;font-family:Roboto;}
-#rightnav {margin-left:auto; float:right;}
-#centerbody {margin: 0; float:none;}
-#leftnav {margin-right:; float:left;}
-.rightnav {text-align:right; width:20%; height:100%;font-size: 12px;}
+#rightnav {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: right;    /* Centers vertically */
+  height: 100vh;          /* Ensures container takes full viewport height */
+}
+#centerbody {
+  display: flex; 
+  justify-content: center; /* Centers horizontally */
+  align-items: center;    /* Centers vertically */
+  height: 100vh;          /* Ensures container takes full viewport height */
+}
+#leftnav {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: left;    /* Centers vertically */
+  height: 100vh;          /* Ensures container takes full viewport height */
+}
+.rightnav {text-align:right; width:20%; height:100%;font-size: 12px;float: right;}
 .centerbody {text-align:center; width: 60%; height:100%;font-size: 12px;}
 .leftnav {text-align: left; width: 20%; height: 100%;font-size: 12px;}
 
