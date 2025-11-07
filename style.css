@@ -3,8 +3,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
 
 .header-footer {width:100vh; text-align: center; font-family:Roboto;}
-#header {margin-bottom:auto; border-bottom:5px; border-style:dotted; border-color:indigo; border-width:100vh;}
-#footer {margin-top:auto; color:black; border-top:5px border-style:dotted; border-color:indigo; border-width:100vh;}
+#header {margin-bottom:auto; border-bottom:5px; border-style:dotted; border-color:indigo; border-width:100%;}
+#footer {margin-top:auto; color:black; border-top:5px border-style:dotted; border-color:indigo; border-width:100%;}
 .headercolor {color: indigo;}
 .centerblack {color:black; text-align: center; font-size:12px;font-family:Roboto;}
 
@@ -12,9 +12,9 @@
 #rightnav {margin-left:auto; float:right;}
 #centerbody {margin: 0; float:none;}
 #leftnav {margin-right:; float:left;}
-.rightnav {text-align:right; width:20%; height:100vh;font-size: 12px;}
-.centerbody {text-align:center; width: 60%; height:100vh;font-size: 12px;}
-.leftnav {text-align: left; width: 20%; height: 100vh;font-size: 12px;}
+.rightnav {text-align:right; width:20%; height:100%;font-size: 12px;}
+.centerbody {text-align:center; width: 60%; height:100%;font-size: 12px;}
+.leftnav {text-align: left; width: 20%; height: 100%;font-size: 12px;}
 
 
 .bitcount-grid-single-Phoenix {
