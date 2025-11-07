@@ -2,19 +2,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
 
-.header-footer {width:100vh; text-align: center; border-radius:5px; border-style:dotted}
+.header-footer {width:100vh; text-align: center; border-radius:5px; border-style:dotted; font-family:Roboto;}
 #header {margin-bottom:10%; border-bottom:5px solid indigo; border-width:100vh;}
 #footer {margin-top:10%; color:black; border-top:5px solid indigo; border-width:100vh;}
 .headercolor {color: indigo;}
-.centerblack {color:black; text-align: center; font-size:12px;}
+.centerblack {color:black; text-align: center; font-size:12px;font-family:Roboto;}
 
-#rightnav, #centerbody, #leftnav {padding:5px; border:2px; border-color: indigo; border-style: solid; }
+#rightnav, #centerbody, #leftnav {padding:5px; border:2px; border-color: indigo; border-style: solid;font-family:Roboto;}
 #rightnav {margin-left:auto; float:right;}
 #centerbody {margin: 0 auto; float:none;}
 #leftnav {margin-right:auto; float:left;}
-.rightnav {text-align:right; width:20%; height:100vh;}
-.centerbody {text-align:center; width: 60%; height:100vh;}
-.leftnav {text-align: left; width: 20%; height: 100vh}
+.rightnav {text-align:right; width:20%; height:100vh;font-size: 12px;}
+.centerbody {text-align:center; width: 60%; height:100vh;font-size: 12px;}
+.leftnav {text-align: left; width: 20%; height: 100vh;font-size: 12px;}
 
 
 .bitcount-grid-single-Phoenix {
