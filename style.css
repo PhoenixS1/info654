@@ -48,23 +48,24 @@
 
 #centerbody {
   margin:10px; 
-  float: left
+  float: left;
 }
 
 #leftnav {
   margin-right:auto; 
-  float:left
+  float:left;
 }
 
 #rightnav {
   padding-right:20px; 
-  border:2px outset indigo; 
+  border:none; 
   text-align: center;
   width:40%; height:200px;
 }
+
 #centerbody {
   border:2px 
-  border-color: indigo
+  border-color: indigo;
   border-style: solid; 
   text-align:center; 
   width: 40%;
@@ -74,6 +75,10 @@
 #leftnav {
   padding-right:20px; 
   width:40%; 
-  height:200px;}
+  height:200px;
+}
         
-.centerblack {text-align:center; color:black}
+.centerblack {
+  text-align:center; 
+  color:black;
+}
