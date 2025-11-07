@@ -1,6 +1,19 @@
-#header, #footer {width:100%; text-align: center;border-radius:5px; }
-#header {background:white; color:black; border-bottom:5px solid indigo;}
-#footer {padding: 1000px; clear:left; background:white; color:black;}
+#header, #footer {
+  width:100%; 
+  text-align:center; 
+  border-radius:5px; 
+}
+
+#header {
+  background-color: white; 
+  color: black; 
+  border-bottom: 5px 
+  border-color: indigo;}
+#footer {
+  padding: 1000px; 
+  clear:left; 
+  background:white; 
+  color:black;}
 
 .bitcount-grid-single-Phoenix {
   font-family: "Bitcount Grid Single", system-ui;
@@ -12,16 +25,10 @@
       "ELSH" 0,
       "ELXP" 0; 
   }
+
 .smaller-image {
-  width:400px;
-  }
-
-h1 {
-  font-size: 30px; font-family:"Bitcount Grid Single";
-  }
-
-p {
-  font-size: 12px; font-family: arial black;
+  width:200px;
+  height:200px;
   }
 
 #rightnav {margin:10px; float:right
