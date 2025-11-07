@@ -1,3 +1,18 @@
+/* ====== Global Layout ===== */
+html,body {
+  height: 100%;
+  margin: 0;
+} 
+
+body {
+  display: flex;
+  flext-direction: column;
+  min-height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #ff;
+  color: black;
+}
+
 /*Fonts*/
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -7,15 +22,17 @@
 .header-footer {
   width:100%; 
   text-align: center; 
+  padding: 20px 0;
 }
 
-#header {border-bottom:5px dotted indigo;}
+#header {
+  border-bottom:5px dotted indigo;
+}
 
-#footer {border-top:5px dotted indigo; color:black; }
-
-.headercolor {
-  color: indigo;
-  font-family:"Roboto", sans-serif;
+#footer {
+  border-top:5px dotted indigo; 
+  color:black; 
+  margin-top:auto;
 }
 
 /*Main content*/
@@ -23,12 +40,13 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  min-height: 80%;
-  border-top: 20ox dotted indigo;
+  flex: 1;
+  border-top: 2px dotted indigo;
   border-bottom: 2px dotted indigo;
+  box-sizing: border-box;
 }
 
-/* Navigation and body*/
+/* Navigation Columns*/
 .rightnav, .centerbody, .leftnav {
   padding:20px; 
   border:2px dotted indigo;
@@ -51,6 +69,11 @@
 }
 
 /*Text styles*/
+.headercolor {
+  color: indigo;
+  font-size: 16px;
+}
+
 .centerblack {
   color:black; 
   text-align: center; 
@@ -74,6 +97,7 @@ p {
   font-size: 12px; 
   color: black;
   text-align: center; 
+  line-height: 1.5;
 }
 
 h2 {
@@ -86,6 +110,9 @@ h2 {
 .smaller-image {
   width:300px;
   height:200px;
+  max-width:100%;
+  height: auto;
+  border-radius: 4px;
 }
 
 /*links*/
@@ -95,4 +122,51 @@ a {
 }
 a:hover {
   text-decoration:underline;
+}
+
+/*=====Reponsice Design=====*/
+
+/* medium screens (tablets, <=900px) */
+@media (max-width: 900px) {
+  .main-content {
+    flex-wrap: wrap;
+  }
+
+  .leftnav, .centerbody, .rightnav {
+    width:100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+
+/* small screens (phones, <= 600px) */
+@media (max-width: 600px) {
+  .bitcount-grid-single-Phoenix {
+    font-size: 24px;
+  }
+
+  .headercolor {
+    font-size: 14px;
+  }
+
+  .smaller-image {
+    width: 90%;
+  }
+
+  .main-content {
+    border:none;
+  }
+
+  .leftnav, .centerbody, .rightnav {
+    border:none;
+    padding: 10px;
+  }
+
+  p, h2 {
+    font-size: 14px;
+  }
 }
