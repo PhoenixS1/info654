@@ -2,9 +2,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap" rel="stylesheet">
 
-.header-footer {width:100vh; text-align: center; border-radius:5px; border-style:dotted; font-family:Roboto;}
-#header {margin-bottom:10%; border-bottom:5px solid indigo; border-width:100vh;}
-#footer {margin-top:10%; color:black; border-top:5px solid indigo; border-width:100vh;}
+.header-footer {width:100vh; text-align: center; font-family:Roboto;}
+#header {margin-bottom:auto; border-bottom:5px dotted indigo; border-width:100vh;}
+#footer {margin-top:auto; color:black; border-top:5px dotted indigo; border-width:100vh;}
 .headercolor {color: indigo;}
 .centerblack {color:black; text-align: center; font-size:12px;font-family:Roboto;}
 
