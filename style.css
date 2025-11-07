@@ -6,9 +6,12 @@
 #header {
   background-color: white; 
   color: black;
+  margin-bottom:40px
+  margin-top:10px
 }
 
 #footer {
+  margin-top: 100px;
   padding: 10px;
   text-align: center;
   clear:left; 
