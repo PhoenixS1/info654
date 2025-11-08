@@ -1,4 +1,6 @@
- {
-  "name": "Genetic Flow Line",
-  "image": "demographics",
+const randomDemos = {
+ "images": [
+  "https://informationr.net/ir/27-SpIssue/CoLIS2022/figs/colis2201fig4.png",
+  "https://informationr.net/ir/27-SpIssue/CoLIS2022/figs/colis2201fig2.png",
+ ]
 }
