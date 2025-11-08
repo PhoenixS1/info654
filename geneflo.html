@@ -33,13 +33,8 @@
              <img src="https://informationr.net/ir/27-SpIssue/CoLIS2022/figs/colis2201fig1.png" alt="Flow Demo">
          </div>
          <script>
-             async function fetchBatesdemographics() {
-             var response = await
-            fetch('./')
-                 .then(res=> res.json())
-             var data = await response.json();
-             var imageUrl = dara.url;
-             document.getElementById('Batesdemogrpahics').innerHTML =
+             fetch('geneflo.json')
+                 .then(response => 
         `<img class="smaller-image" src="${imageUrl}" alt="Genetic Flow">`;
              }
          </script><br>
