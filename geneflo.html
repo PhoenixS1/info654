@@ -27,14 +27,21 @@
     <div class="main-content">
     <!--Center Body-->
     <main id="centerbody" class="centerbody">
-        <a href="#">
-            <img class="smaller-image" src="https://slguardian.org/wp-content/uploads/2023/06/susantha-guna.jpg" alt="Susantha Goonatilake">
-        </a>
-        <form action="https://www.google.com/search" method="GET">
-            <input type="text" name="q" placeholder="Search Engine" required>
-            <button type="submit" target="_blank">Submit</button>
-        </form>
-
+         <h2>Learn About Marcia Bates' Flow lines</h2>
+         <button id="fetchBates" onClick="fetchBatesdemographics()">See Demos</button>
+         <div id="Batesdemogrpahics">
+             <img src="https://informationr.net/ir/27-SpIssue/CoLIS2022/figs/colis2201fig1.png" alt="Flow Demo">
+         </div>
+         <script>
+             async function fetchBatesdemographics() {
+             var response = await
+            fetch('https://flow.demo/bates.json');
+             var data = await response.json();
+             var imageUrl = dara.url;
+             document.getElementById('Batesdemogrpahics').innerHTML =
+        `<img class="smaller-image" src="${imageUrl}" alt="Genetic Flow">`;
+             }
+         </script><br>
         
         <h2>Get Familiar with the Vernacular</h2>
         <ul>
