@@ -1,4 +1,4 @@
-  async function fetchBates() {
+  async function fetchBatesdemographics() {
  	var response = await fetch('geneflo.json');
 	var data = await response.json();
 	var imageUrl = data.url;
