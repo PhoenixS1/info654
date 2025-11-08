@@ -12,6 +12,7 @@
 
     <!--External Stylesheet-->
     <link rel="stylesheet" href="style.css"> 
+    <link rel="javascript" href="geneflo.json">
 </head>
 
 <body>
@@ -32,13 +33,7 @@
          <div id="Batesdemogrpahics">
              <img src="https://informationr.net/ir/27-SpIssue/CoLIS2022/figs/colis2201fig1.png" alt="Flow Demo">
          </div>
-         <script>
-             fetch('geneflo.json')
-                 .then(response => 
-        `<img class="smaller-image" src="${imageUrl}" alt="Genetic Flow">`;
-             }
-         </script><br>
-        
+         <script src="geneflo.json"></script><br>
         <h2>Get Familiar with the Vernacular</h2>
         <ul>
             <li>Genetic flow</li>
