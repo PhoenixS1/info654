@@ -35,7 +35,8 @@
          <script>
              async function fetchBatesdemographics() {
              var response = await
-            fetch('https://flow.demo/bates.json');
+            fetch('./')
+                 .then(res=> res.json())
              var data = await response.json();
              var imageUrl = dara.url;
              document.getElementById('Batesdemogrpahics').innerHTML =
