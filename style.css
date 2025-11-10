@@ -23,7 +23,7 @@
 
 /*Main content*/
 .main-content {
- 
+  text-align: center;
   justify-content: space-between;
   align-items: flex-start;
   border-top: 2px dotted indigo;
