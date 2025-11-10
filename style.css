@@ -24,9 +24,9 @@
 /*Main content*/
 .main-content {
   display: flex;
-  text-align: center;
-  gap:20px;
   justify-content: center;
+  gap:20px;
+  text-align: center;
   border-top: 2px dotted indigo;
   border-bottom: 2px dotted indigo;
   box-sizing: border-box;
