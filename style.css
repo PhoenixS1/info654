@@ -25,6 +25,7 @@
 .main-content {
   display: flex;
   flex-wrap: wrap;
+  text-align:center;
   justify-content: space-between;
   align-items: flex-start;
   border-top: 2px dotted indigo;
